@@ -40,9 +40,8 @@ public class Principal {
     /**
      * Algoritmo BucketSort.
      *
-     * Melhor Caso O(n). 
-     * Caso Médio O(n). 
-     * Pior Caso O(n).
+     * Tempo do caso médio:
+     * Theta(n) + n*O(2 – 1/n) = Theta(n).
      *
      */
     public static void bucketSort(int[] A) {
