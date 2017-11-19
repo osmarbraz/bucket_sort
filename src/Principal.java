@@ -7,7 +7,7 @@
  *
  * Baseado nos slides 109 da aula 05/09/2017 
  *
- * Página 145 Cormen 3 ed
+ * Página 145 Thomas H. Cormen 3 ed
  *
  * Algoritimo BucketSort/Ordenação por Balde
  *
@@ -57,11 +57,11 @@ public class Principal {
             B[A[i-1]]++;            
         }        
         //Concatena as listas de B em A                             // O(n)
-        int indice = 0;
+        int pos = 0;
         for (int i = 0; i < B.length; i++) {
             for (int j = 0; j < B[i]; j++) {
-                A[indice] = i;
-                indice = indice + 1;
+                A[pos] = i;
+                pos = pos + 1;
             }
         }
     }
