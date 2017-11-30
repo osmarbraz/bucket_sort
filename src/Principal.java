@@ -5,7 +5,7 @@
  * Disciplinas: Projeto e Análise de Algoritmos
  * Prof Alexandre Gonçalves da Silva 
  *
- * Baseado nos slides 109 da aula 05/09/2017 
+ * Baseado nos slides 109 da aula 15/09/2017 
  *
  * Página 145 Thomas H. Cormen 3 ed
  *
